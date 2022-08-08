@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 
 body{
@@ -41,10 +41,10 @@ body{
 .right{
     float: right;
     width: 30%;
-    height: auto;
-    /* background-color: yellow; */
+    height: 558px; /* estaba en auto */
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: yellowgreen;
 }
 
 .left-button{
@@ -54,6 +54,7 @@ body{
     /*background-color: pink;*/
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
 }
 
 .logo-img{
@@ -97,17 +98,20 @@ body{
     margin-left: 10%;
     color: #0A3871;
     width: 80%;
-    height: 60%;
+    height: 20%;
     border: none;
     outline: none;
     font-size: 15px;
+    margin-top: 25px;
     margin-bottom: 5px;
+    text-align: center;
+    border-radius: 15px;
 }
 
 #btn-encriptar{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
     border-radius: 24px;
     margin-left: 15%;
     background: #0A3871;
@@ -120,17 +124,17 @@ button:hover {
     cursor: pointer;
     transform: translateY(-3px);
   
-  }
+}
   
 button:active{
     transform: translateY(3px);
-  }
+}
 
 
 #btn-desencriptar{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
     border-radius: 24px;
     margin-left: 10%;
     background: #DBDFE8;
@@ -138,15 +142,17 @@ button:active{
 }
 
 #copiar{
-    margin-left: 33%;
-    margin-top: 90%;
-    padding: 24px;
-    width: 40%;
-    height: 10%;
+    margin-left: 15%;
+    margin-top: 495px;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
     background: #DBDFE8;
     border-radius: 24px;
     display: none;
     font-size: 24px;
+
+    
 }
 
 #aviso{
