@@ -160,5 +160,6 @@ button:active{
     text-align: center;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     
 }
