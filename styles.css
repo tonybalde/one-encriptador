@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+    
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    /* background-color: yellow; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    /*background-color: pink;*/
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo-img{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.title-logo{
+    float: inherit;
+    margin-left: 15%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: F3F5FC;
+}
+
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    text-align: center;
+
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+  
+  }
+  
+button:active{
+    transform: translateY(3px);
+  }
+
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #DBDFE8;
+    font-size: 24px;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #DBDFE8;
+    border-radius: 24px;
+    display: none;
+    font-size: 24px;
+}
+
+#aviso{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
