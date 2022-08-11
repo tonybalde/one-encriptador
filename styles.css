@@ -117,8 +117,20 @@ body{
     background: #0A3871;
     color: #fff;
     font-size: 24px;
+    background-image: url("images/unlock.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 12px;
+    background-position-y: 4px;
     
 }
+
+#btn-encriptar:hover{
+    background-image: url("images/lock.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
 
 button:hover {
     cursor: pointer;
@@ -139,6 +151,17 @@ button:active{
     margin-left: 10%;
     background: #DBDFE8;
     font-size: 24px;
+    background-image: url("images/lock.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 2px;
+    background-position-y: 4px;
+}
+
+#btn-desencriptar:hover{
+    background-image: url("images/unlock.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
 }
 
 #copiar{
@@ -163,3 +186,9 @@ button:active{
     gap: 10px;
     
 }
+
+.candados{
+    height: 20px;
+}
+
+
